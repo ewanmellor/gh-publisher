@@ -1,0 +1,21 @@
+#
+# This file controls the details on the published HTML page.
+#
+# All the values here are optional, but it will obviously look a lot
+# better if you fill them in.
+#
+# Remove the # from the front of each line, and then edit appropriately.
+#
+
+#title:
+#iframe_src: book.pdf
+
+# You can specify multiple authors, just follow the pattern below.
+# These fields can contain HTML tags.  You probably want to put <br />
+# in the address somewhere, indicating a line break.
+
+#authors:
+#- name: Joseph H. Bloggs
+#  address: International Institute for Interminable Examples, P.O. Box 1,<br />Beverly Hills, CA 90210, USA.
+#- name: Clara McNarma
+#  address: School of Dance and Drama,<br />College of the Northern Light<br />Dogger, Fisher, German Bight.

@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ site.title }}</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>{{site.title }}</h1>
+{% for author in site.authors %}
+
+<p>{{ author.name }}<br />
+<em>{{ author.address }}</em></p>
+
+{% endfor %}
+
+        <p class="view"><a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}">View the Project on GitHub <small>{{ site.github_username }}/{{ site.github_repo }}</small></a></p>
+
+        <ul>
+          <li><a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/issues">Send feedback</a></li>
+        </ul>
+      </header>
+{% if site.iframe_src %}
+      <section>
+<iframe src="{{ site.iframe_src }}" />
+      </section>
+{% endif %}
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>
