@@ -94,9 +94,9 @@ it needs to be at the top level of your project, and it needs to be named
 3. If necessary, edit `gh-publisher-scripts/build.sh` and
 `gh-publisher-scripts/copy.sh`.  By default, these are configured to
 build the project by calling `make` at the top level, and then to copy
-`*.pdf`, `*.html`, `*.css`, `*.js`, `*.png`, `*.jpg`, `*.gif` for publication.
-If you want to do something else, then you need to edit those files
-appropriately.
+`*.pdf`, `*.html`, `*.css`, `*.js`, `*.png`, `*.jpeg`, `*.jpg`, `*.gif` for
+publication.  If you want to do something else, then you need to edit those
+files appropriately.
 4. Commit the entire contents of `gh-publisher-scripts` and your new
 `.travis.yml` to your repository, and push to GitHub.
 5. After a few minutes you should see your build begin, by looking at your
