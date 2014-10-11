@@ -48,6 +48,8 @@ tmpdir=$(mktemp -t publish.XXXXXX -d)
    git checkout "$git_publish_branch"
  else
    git checkout --orphan "$git_publish_branch"
+   git reset .
+   git clean -dfx
  fi
 )
 publish_dir="$tmpdir/publish"
