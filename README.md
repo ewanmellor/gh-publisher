@@ -114,7 +114,7 @@ these values though.
 
 ### Check that it's all worked
 
-1. Visit http://$GITHUB_USERNAME.github.io/$REPO_NAME/.  Hopefully you have
+1. Visit https://$GITHUB_USERNAME.github.io/$REPO_NAME/.  Hopefully you have
 a page here now!  This can take up to ten minutes to appear the first time
 (future builds are instant).
 
