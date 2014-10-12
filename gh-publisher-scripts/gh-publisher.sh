@@ -90,9 +90,9 @@ then
 fi
 
 (cd "$publish_dir"
- if ! git diff --quiet || ! git diff --quiet --staged
+ git add -A
+ if ! git diff --quiet --staged
  then
-   git add -A
    git commit -m "Built from revision $git_rev."
    git push -q origin "$git_publish_branch:$git_publish_branch"
  else
