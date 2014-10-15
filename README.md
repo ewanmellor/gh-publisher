@@ -14,6 +14,8 @@ through GitHub Issues.
 
 This is entirely dependent on GitHub and Travis CI.
 
+[Example here.](http://drphilmarshall.github.io/Ideas-for-Citizen-Science-in-Astronomy/) Click through to the project on github to see the files in place. 
+
 Installation
 ------------
 
