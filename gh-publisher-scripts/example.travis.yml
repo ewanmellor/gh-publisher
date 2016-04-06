@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-- 1.9.3
+- 2.0.0
 script: /bin/bash gh-publisher-scripts/gh-publisher.sh
 before_install:
 - yes "" | sudo apt-add-repository ppa:texlive-backports/ppa
